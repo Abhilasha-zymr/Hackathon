@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Card from "./Card"; // Import the BookingCard component
+import Card from "../../Card"; // Import the BookingCard component
+import "./MovieBookingForm.css";
 
 export default function Booking() {
   const [formData, setFormData] = useState({
